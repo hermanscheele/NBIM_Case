@@ -39,7 +39,7 @@ class Agent:
         return break_diagnosis_agent(breaks, market_validation, self.break_model, self.client)
 
 
-    def policy_evalutaion(self, breaks, diagnosis):
+    def policy_evaluation(self, breaks, diagnosis):
         return policy_agent(breaks, diagnosis, self.policy, self.policy_model, self.client)
 
 
@@ -98,7 +98,7 @@ a = Agent(market_model, break_model, policy_model, remediation_model, remediatio
 breaks = a.detect_breaks()
 market = a.market_validation(breaks)
 diag = a.diagnose_breaks(breaks, market)["diagnosis"]
-policy_eval = a.policy_evalutaion(breaks, diag)
+policy_eval = a.policy_evaluation(breaks, diag)
 res = a.auto_resolutions(breaks, diag, policy_eval)
 rem = a.remediate(breaks, diag, market)
 

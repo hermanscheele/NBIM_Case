@@ -2,7 +2,7 @@
 
 **AI-Powered Multi-Agent System for Financial Reconciliation**
 
-A proof-of-concept demonstrating how LLMs can automate dividend reconciliation between internal systems and external custodians, reducing manual work from 60 minutes to 5 minutes per reconciliation run.
+A proof-of-concept demonstrating how LLMs can automate dividend reconciliation between internal systems and external custodians.
 
 ---
 

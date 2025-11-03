@@ -8,7 +8,7 @@ A proof-of-concept demonstrating how LLMs can automate dividend reconciliation b
 
 **5-Agent System** that automates the entire reconciliation workflow:
 
-![Agent Workflow](agent_workflow.png)
+![Agent Workflow](png/agent_workflow.png)
 
 ---
 

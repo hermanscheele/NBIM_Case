@@ -1,21 +1,9 @@
-Nominal mismatch: ISIN CH0038863350
-The custodian reports a nominal value of 30,000, significantly higher than NBIM's reported 15,000. This indicates an internal data discrepancy within NBIM. Please review and correct your internal position records to ensure accurate reporting of the dividend and position data.
-
-Gross amount discrepancy: ISIN CH0038863350
-The reported gross dividend amount on 25 April 2025 does not align with public sources indicating the ex-date was 22 April 2025. This discrepancy may be due to reporting timing or internal processing, but the exact cause remains unclear. Please clarify whether any special dividend or reporting adjustment occurred on this date.
-
-Tax calculation discrepancy: ISIN CH0038863350
-The custodian reports a tax amount (13,020 CHF) consistent with a 35% withholding rate, aligning with Swiss standards. However, NBIM's internal data shows a different tax amount (10,850 CHF). Please confirm the correct tax calculation and update your records to reflect the accurate withholding amount.
+Dividend reconciliation: ISIN CH0038863350
+Please review and correct the nominal value reported for the dividend event on 25.04.2025. The current custody nominal value of 30,000 differs from NBIM's 15,000, indicating a potential internal data entry error. Confirm the accurate nominal amount and update your records accordingly.
 
 Dividend reconciliation: ISIN CH0038863350
-Internal review required for nominal mismatch identified for ISIN CH0038863350. The custody value is reported as CHF 30,000, while the NBIM value is CHF 15,000, resulting in a difference of CHF 15,000. This discrepancy appears to reflect an internal processing error.
+Please verify and correct the gross amount reported for the dividend event on 25.04.2025. The custodian reports 37,200, while NBIM's data indicates 31,000, suggesting a calculation discrepancy. Confirm the correct gross amount and update your records to ensure accurate reporting.
 
 Dividend reconciliation: ISIN CH0038863350
-We have encountered a discrepancy regarding the gross amount for ISIN CH0038863350. The reported ex-date of April 25, 2025, does not align with the official ex-date of April 22, 2025. Please provide clarification on this matter as it remains unclear whether this reflects an internal error or a market practice.
-
-Dividend reconciliation: ISIN CH0038863350
-There is a discrepancy in the payment date for the dividend associated with ISIN CH0038863350. The custody pay date is reported as April 24, 2025, while the NBIM pay date is April 29, 2025. Please clarify the correct payment date.
-
-Dividend reconciliation: ISIN CH0038863350
-We have identified a tax-related break for ISIN CH0038863350. The reported ex-date of April 25, 2025, does not align with the standard market schedule of April 22, 2025. Please provide clarification regarding this discrepancy.
+The discrepancy in net amount for the dividend event on 25.04.2025, with custodian reporting 24,180 and NBIM reporting 20,150, requires clarification. Please confirm the correct net amount and provide supporting documentation or explanation for the variance.
 

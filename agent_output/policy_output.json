@@ -3,55 +3,55 @@
     {
       "break_id": 1,
       "policy_name": "South Korea Treaty Rate",
-      "policy_violation": "no",
-      "reason": "Custodian applied a 20% tax rate instead of the policy-mandated 15% treaty rate for Korea, indicating a violation.",
-      "action_needed": "Apply the correct 15% treaty rate with valid documentation"
+      "policy_violation": "yes",
+      "reason": "Custodian reported a 20% withholding tax instead of the correct treaty rate of 15%.",
+      "action_needed": "Correct withholding to apply 15% treaty rate with valid documentation."
     },
     {
       "break_id": 2,
       "policy_name": "South Korea Treaty Rate",
-      "policy_violation": "no",
-      "reason": "Custodian applied a 20% rate against the expected 15%, violating treaty application policy.",
-      "action_needed": "Correct tax withholding to 15% treaty rate"
+      "policy_violation": "yes",
+      "reason": "Custodian applied a 20% rate while NBIM's data suggests a 22% rate; inconsistent with treaty policy.",
+      "action_needed": "Verify and adjust the tax rate to align with 15% treaty rate with valid certificate."
     },
     {
       "break_id": 3,
-      "policy_name": "Dividend Payment Date",
+      "policy_name": "None",
       "policy_violation": "no",
-      "reason": "Payment date mismatch of 5 days aligns with acceptable timing variance; no violation.",
+      "reason": "Payment date discrepancy is within the \u00b11 business day tolerance and is likely operational.",
       "action_needed": "None"
     },
     {
       "break_id": 4,
       "policy_name": "None",
       "policy_violation": "yes",
-      "reason": "Nominal mismatch in position data (Custody: 30000 vs. NBIM: 15000) violates data integrity policy.",
-      "action_needed": "Correct position data in NBIM system"
+      "reason": "Nominal mismatch (position error) is critical and violates position data integrity policy.",
+      "action_needed": "Immediately correct the position data in NBIM systems."
     },
     {
       "break_id": 5,
       "policy_name": "None",
-      "policy_violation": "unknown",
-      "reason": "Gross amount discrepancy lacks sufficient public info; unclear whether internal or external error.",
-      "action_needed": "Verify with custodian and internal records"
+      "policy_violation": "yes",
+      "reason": "Gross amount discrepancy exceeds the 0.01 threshold, indicating a calculation error within NBIM.",
+      "action_needed": "Review and rectify gross amount calculation logic."
     },
     {
       "break_id": 6,
-      "policy_name": "Swiss Treaty Rate",
-      "policy_violation": "no",
-      "reason": "Custodian reported tax amount (13020 CHF) aligning with 35% Swiss standard tax; no violation.",
-      "action_needed": "None"
+      "policy_name": "None",
+      "policy_violation": "yes",
+      "reason": "Net amount mismatch does not derive mathematically from gross and tax, violating data validation policies.",
+      "action_needed": "Correct the internal NBIM net amount record."
     },
     {
       "break_id": 7,
-      "policy_name": "None",
-      "policy_violation": "unknown",
-      "reason": "The observed event on 25.04.2025 resembles typical timing and is not clearly an internal or external error; inconclusive.",
-      "action_needed": "Monitor for further confirmation"
+      "policy_name": "Swiss Treaty Rate",
+      "policy_violation": "no",
+      "reason": "Custodian provided correct tax rate aligning with Swiss treaty standards; no violation.",
+      "action_needed": "None"
     }
   ],
   "summary": {
     "total_evaluated": 7,
-    "violations": 2
+    "violations": 6
   }
 }

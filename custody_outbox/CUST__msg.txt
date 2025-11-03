@@ -1,0 +1,6 @@
+Dividend reconciliation: ISIN KR7005930003
+The pay date discrepancy for the dividend event on 31.03.2025, with custodian showing 25.05.2025 and market data indicating around 20.05.2025, requires clarification. Please confirm the official dividend payment date from your records or external sources to resolve this timing variance.
+
+Dividend reconciliation: ISIN CH0038863350
+The reported tax amount of 13,020 at a 35% rate aligns with Swiss withholding standards. Please confirm the withholding tax details and clarify if any adjustments are necessary based on your records or official documentation.
+

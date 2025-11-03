@@ -5,162 +5,167 @@
       "custodian": "CUST/HSBCKR",
       "type": "custodian_request",
       "subject": "Dividend reconciliation: ISIN KR7005930003",
-      "body": "We have identified a discrepancy in the net amount for the dividend associated with ISIN KR7005930003. The custody amount reported is \u20a97,220,000, while the NBIM amount is \u20a96,769,950, resulting in a difference of \u20a9450,050. Please review the calculations and provide clarification or correction as necessary.",
+      "body": "Please review and correct the custody amount reported for the dividend event on 31.03.2025. The current custody amount of 7,220,000 exceeds the NBIM reported amount of 6,769,950 by 450,050. Confirm the accurate custody amount and update your records accordingly to ensure data consistency.",
       "attachments": [
         {
           "name": "market_sources.txt",
-          "content": "https://fintel.io/sd/kr/005930 | https://taxsummaries.pwc.com/Republic-of-Korea/Corporate/Withholding-taxes"
+          "content": "https://divvydiary.com/en/samsung-electronics-co-stock-KR7005930003 | https://taxsummaries.pwc.com/Republic-of-Korea/Corporate/Withholding-taxes"
         }
       ],
       "proposed_expected_fields": {
-        "EX_DATE": "31.03.2025",
-        "PAY_DATE": "25.05.2025",
+        "EX_DATE": "",
+        "PAY_DATE": "",
         "FX_DATE": "",
         "FX_RATE": "",
-        "WITHHOLDING_TAX": "20",
-        "NET_AMOUNT_NOK": "6769950"
+        "WITHHOLDING_TAX": "",
+        "NET_AMOUNT_NOK": ""
       },
-      "draft_id": "fcaa4e3a",
-      "created_at": "2025-11-03T14:32:35.531086+00:00"
+      "draft_id": "fc2872d4",
+      "created_at": "2025-11-03T18:09:15.403657+00:00"
     },
     {
       "break_id": 2,
       "custodian": "CUST/HSBCKR",
       "type": "custodian_request",
       "subject": "Dividend reconciliation: ISIN KR7005930003",
-      "body": "There is a discrepancy in the tax amount for the dividend related to ISIN KR7005930003. The custody tax reported is \u20a91,805,000, while the NBIM tax is \u20a91,985,500, resulting in a difference of \u20a9180,500. Please review this matter and provide the necessary corrections.",
+      "body": "Please verify and update the custody tax amount reported for the dividend event on 31.03.2025. The custodian reported a custody tax of 1,805,000 at 20%, whereas NBIM's data indicates 1,985,500 at 22%. Confirm the correct withholding tax rate and adjust your records to reflect the accurate amount.",
       "attachments": [
         {
           "name": "market_sources.txt",
-          "content": "https://fintel.io/sd/kr/005930 | https://taxsummaries.pwc.com/Republic-of-Korea/Corporate/Withholding-taxes"
+          "content": "https://divvydiary.com/en/samsung-electronics-co-stock-KR7005930003 | https://taxsummaries.pwc.com/Republic-of-Korea/Corporate/Withholding-taxes"
         }
       ],
       "proposed_expected_fields": {
-        "EX_DATE": "31.03.2025",
-        "PAY_DATE": "25.05.2025",
+        "EX_DATE": "",
+        "PAY_DATE": "",
         "FX_DATE": "",
         "FX_RATE": "",
-        "WITHHOLDING_TAX": "20",
+        "WITHHOLDING_TAX": "",
         "NET_AMOUNT_NOK": ""
       },
-      "draft_id": "20d36329",
-      "created_at": "2025-11-03T14:32:35.531146+00:00"
+      "draft_id": "309bf49c",
+      "created_at": "2025-11-03T18:09:15.403723+00:00"
     },
     {
       "break_id": 3,
       "custodian": null,
       "type": "info_request",
       "subject": "Dividend reconciliation: ISIN KR7005930003",
-      "body": "We have noted a difference in the payment dates for the dividend associated with ISIN KR7005930003. The custody date is reported as May 25, 2025, while the NBIM date is May 20, 2025. Please provide clarification on the correct payment date.",
+      "body": "The pay date discrepancy for the dividend event on 31.03.2025, with custodian showing 25.05.2025 and market data indicating around 20.05.2025, requires clarification. Please confirm the official dividend payment date from your records or external sources to resolve this timing variance.",
       "attachments": [
         {
           "name": "market_sources.txt",
-          "content": "https://fintel.io/sd/kr/005930 | https://taxsummaries.pwc.com/Republic-of-Korea/Corporate/Withholding-taxes"
+          "content": "https://divvydiary.com/en/samsung-electronics-co-stock-KR7005930003 | https://www.marketscreener.com/quote/stock/SAMSUNG-ELECTRONICS-CO-LT-6494906/news/Samsung-Electronics-Co-Ltd-announces-Quarterly-dividend-payable-on-May-20-2025-49098771/"
         }
       ],
       "proposed_expected_fields": {
-        "EX_DATE": "31.03.2025",
-        "PAY_DATE": "25.05.2025",
+        "EX_DATE": "",
+        "PAY_DATE": "",
         "FX_DATE": "",
         "FX_RATE": "",
         "WITHHOLDING_TAX": "",
         "NET_AMOUNT_NOK": ""
       },
-      "draft_id": "339d43f3",
-      "created_at": "2025-11-03T14:32:35.531165+00:00"
+      "draft_id": "2c00f103",
+      "created_at": "2025-11-03T18:09:15.403751+00:00"
     },
     {
       "break_id": 4,
       "custodian": "CUST/UBSCH",
-      "type": "nbim_internal_fix",
+      "type": "custodian_request",
       "subject": "Dividend reconciliation: ISIN CH0038863350",
-      "body": "Internal review required for nominal mismatch identified for ISIN CH0038863350. The custody value is reported as CHF 30,000, while the NBIM value is CHF 15,000, resulting in a difference of CHF 15,000. This discrepancy appears to reflect an internal processing error.",
-      "attachments": [],
+      "body": "Please review and correct the nominal value reported for the dividend event on 25.04.2025. The current custody nominal value of 30,000 differs from NBIM's 15,000, indicating a potential internal data entry error. Confirm the accurate nominal amount and update your records accordingly.",
+      "attachments": [
+        {
+          "name": "market_sources.txt",
+          "content": "https://divvydiary.com/en/nestle-stock-CH0038863350 | https://www.schwiizerfranke.com/en/dividendenkalender-schweiz/"
+        }
+      ],
       "proposed_expected_fields": {
-        "EX_DATE": "25.04.2025",
-        "PAY_DATE": "29.04.2025",
+        "EX_DATE": "",
+        "PAY_DATE": "",
         "FX_DATE": "",
         "FX_RATE": "",
         "WITHHOLDING_TAX": "",
         "NET_AMOUNT_NOK": ""
       },
-      "draft_id": "bb2797a8",
-      "created_at": "2025-11-03T14:32:35.531179+00:00"
+      "draft_id": "59f64b31",
+      "created_at": "2025-11-03T18:09:15.403772+00:00"
     },
     {
       "break_id": 5,
       "custodian": "CUST/UBSCH",
-      "type": "info_request",
+      "type": "custodian_request",
       "subject": "Dividend reconciliation: ISIN CH0038863350",
-      "body": "We have encountered a discrepancy regarding the gross amount for ISIN CH0038863350. The reported ex-date of April 25, 2025, does not align with the official ex-date of April 22, 2025. Please provide clarification on this matter as it remains unclear whether this reflects an internal error or a market practice.",
+      "body": "Please verify and correct the gross amount reported for the dividend event on 25.04.2025. The custodian reports 37,200, while NBIM's data indicates 31,000, suggesting a calculation discrepancy. Confirm the correct gross amount and update your records to ensure accurate reporting.",
       "attachments": [
         {
           "name": "market_sources.txt",
-          "content": "https://globaltaxrecovery.com/nestle-sa/ | https://www.alpian.com/blog/investing/taxing-shares-in-switzerland"
+          "content": "https://divvydiary.com/en/nestle-stock-CH0038863350 | https://www.schwiizerfranke.com/en/dividendenkalender-schweiz/"
         }
       ],
       "proposed_expected_fields": {
-        "EX_DATE": "22.04.2025",
-        "PAY_DATE": "24.04.2025",
+        "EX_DATE": "",
+        "PAY_DATE": "",
         "FX_DATE": "",
         "FX_RATE": "",
-        "WITHHOLDING_TAX": "35",
+        "WITHHOLDING_TAX": "",
         "NET_AMOUNT_NOK": ""
       },
-      "draft_id": "92346139",
-      "created_at": "2025-11-03T14:32:35.531191+00:00"
+      "draft_id": "5cac4185",
+      "created_at": "2025-11-03T18:09:15.403791+00:00"
     },
     {
       "break_id": 6,
       "custodian": "CUST/UBSCH",
       "type": "info_request",
       "subject": "Dividend reconciliation: ISIN CH0038863350",
-      "body": "There is a discrepancy in the payment date for the dividend associated with ISIN CH0038863350. The custody pay date is reported as April 24, 2025, while the NBIM pay date is April 29, 2025. Please clarify the correct payment date.",
+      "body": "The discrepancy in net amount for the dividend event on 25.04.2025, with custodian reporting 24,180 and NBIM reporting 20,150, requires clarification. Please confirm the correct net amount and provide supporting documentation or explanation for the variance.",
       "attachments": [
         {
           "name": "market_sources.txt",
-          "content": "https://www.schwiizerfranke.com/en/dividendenkalender-schweiz/ | https://divvydiary.com/nestle-CH0038863350 | https://www.reddit.com/r/askswitzerland/comments/120ap57"
+          "content": "https://divvydiary.com/en/nestle-stock-CH0038863350 | https://www.schwiizerfranke.com/en/dividendenkalender-schweiz/"
         }
       ],
       "proposed_expected_fields": {
-        "EX_DATE": "22.04.2025",
-        "PAY_DATE": "24.04.2025",
+        "EX_DATE": "",
+        "PAY_DATE": "",
         "FX_DATE": "",
         "FX_RATE": "",
-        "WITHHOLDING_TAX": "35",
+        "WITHHOLDING_TAX": "",
         "NET_AMOUNT_NOK": ""
       },
-      "draft_id": "6bc1fd7b",
-      "created_at": "2025-11-03T14:32:35.531201+00:00"
+      "draft_id": "30376653",
+      "created_at": "2025-11-03T18:09:15.403809+00:00"
     },
     {
       "break_id": 7,
-      "custodian": "CUST/UBSCH",
+      "custodian": null,
       "type": "info_request",
       "subject": "Dividend reconciliation: ISIN CH0038863350",
-      "body": "We have identified a tax-related break for ISIN CH0038863350. The reported ex-date of April 25, 2025, does not align with the standard market schedule of April 22, 2025. Please provide clarification regarding this discrepancy.",
+      "body": "The reported tax amount of 13,020 at a 35% rate aligns with Swiss withholding standards. Please confirm the withholding tax details and clarify if any adjustments are necessary based on your records or official documentation.",
       "attachments": [
         {
           "name": "market_sources.txt",
-          "content": "https://divvydiary.com/en/nestle-stock-CH0038863350 | https://finpension.ch/en/knowledge/dividend-tax-switzerland/"
+          "content": "https://divvydiary.com/en/nestle-stock-CH0038863350 | https://www.schwiizerfranke.com/en/dividendenkalender-schweiz/"
         }
       ],
       "proposed_expected_fields": {
-        "EX_DATE": "22.04.2025",
-        "PAY_DATE": "24.04.2025",
+        "EX_DATE": "",
+        "PAY_DATE": "",
         "FX_DATE": "",
         "FX_RATE": "",
-        "WITHHOLDING_TAX": "35",
+        "WITHHOLDING_TAX": "",
         "NET_AMOUNT_NOK": ""
       },
-      "draft_id": "bcdd9c71",
-      "created_at": "2025-11-03T14:32:35.531211+00:00"
+      "draft_id": "e0ce386e",
+      "created_at": "2025-11-03T18:09:15.403827+00:00"
     }
   ],
   "summary": {
     "total_breaks": 7,
     "custodian_requests": 5,
-    "nbim_internal_fixes": 1,
-    "info_requests": 3
+    "nbim_internal_fixes": 2,
+    "info_requests": 2
   }
 }

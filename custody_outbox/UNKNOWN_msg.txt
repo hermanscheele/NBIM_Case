@@ -1,6 +1,0 @@
-Schedule clarification: ISIN CH0038863350
-There is no public record indicating a deviation from the standard dividend schedule for Nestlé S.A. on 25 April 2025. The ex-date and pay-date are consistent with the official schedule, suggesting the observed 'break' may be a timing or reporting artifact. Please clarify if any internal processing delay or late reporting caused this discrepancy.
-
-Dividend reconciliation: ISIN KR7005930003
-We have noted a difference in the payment dates for the dividend associated with ISIN KR7005930003. The custody date is reported as May 25, 2025, while the NBIM date is May 20, 2025. Please provide clarification on the correct payment date.
-

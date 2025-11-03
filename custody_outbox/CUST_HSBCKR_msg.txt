@@ -1,15 +1,6 @@
 Dividend reconciliation: ISIN KR7005930003
-The reported custody amount exceeds the NBIM amount by 450,050, indicating a potential custodian over-reporting or misreporting of the dividend payment. Please verify the actual dividend amount paid and reconcile any timing or reporting discrepancies. Confirm the payment details and update records accordingly to ensure data accuracy.
-
-Tax reconciliation: ISIN KR7005930003
-The custodian's reported tax amount (1,805,000) corresponds to a 20% rate, whereas NBIM applies a 22% rate. Public information indicates the standard Korean withholding tax is 22%. Please review and correct the tax calculation to align with official tax rates and documentation.
-
-Pay date discrepancy: ISIN KR7005930003
-The custodian reports a pay date of 25 May 2025, while public data indicates the expected payment date is 20 May 2025. Please clarify the reason for this delay or discrepancy and update your records to reflect the correct scheduled payment date for accurate cash flow planning.
+Please review and correct the custody amount reported for the dividend event on 31.03.2025. The current custody amount of 7,220,000 exceeds the NBIM reported amount of 6,769,950 by 450,050. Confirm the accurate custody amount and update your records accordingly to ensure data consistency.
 
 Dividend reconciliation: ISIN KR7005930003
-We have identified a discrepancy in the net amount for the dividend associated with ISIN KR7005930003. The custody amount reported is ₩7,220,000, while the NBIM amount is ₩6,769,950, resulting in a difference of ₩450,050. Please review the calculations and provide clarification or correction as necessary.
-
-Dividend reconciliation: ISIN KR7005930003
-There is a discrepancy in the tax amount for the dividend related to ISIN KR7005930003. The custody tax reported is ₩1,805,000, while the NBIM tax is ₩1,985,500, resulting in a difference of ₩180,500. Please review this matter and provide the necessary corrections.
+Please verify and update the custody tax amount reported for the dividend event on 31.03.2025. The custodian reported a custody tax of 1,805,000 at 20%, whereas NBIM's data indicates 1,985,500 at 22%. Confirm the correct withholding tax rate and adjust your records to reflect the accurate amount.
 

@@ -2,7 +2,7 @@ from break_checks import detect_breaks
 from openai import OpenAI
 from agents import market_validation_agent, break_diagnosis_agent, policy_agent, auto_resolution_agent, remediation_agent
 from dividend_policy import POLICY_TEXT
-
+import time
 
 
 
@@ -54,8 +54,6 @@ class Agent:
 
 
 
-
-
 market_model = "gpt-4o"
 break_model = "gpt-4.1-nano"
 policy_model = "gpt-4.1-nano"
@@ -69,12 +67,9 @@ policy = POLICY_TEXT
 
 
 
-
 print("")
 print("----------- INITIALIZING AGENT ------------")
 a = Agent(market_model, break_model, policy_model, remediation_model, remediation_model, nbim_file, custody_file, policy)
-
-
 
 
 
@@ -86,22 +81,23 @@ a = Agent(market_model, break_model, policy_model, remediation_model, remediatio
 #     market = json.load(f)
 
 # with open("agent_output/break_output.json", "r") as f:
-#     diag = json.load(f)["diagnosis"]
+#     diagnosis = json.load(f)["diagnosis"]
 
 # with open("agent_output/policy_output.json", "r") as f:
 #     policy_eval = json.load(f)
 
 
 
+start = time.time()
 
 # ---------------- AGENT WORKFLOW RUN --------------- #
 breaks = a.detect_breaks()
 market = a.market_validation(breaks)
-diag = a.diagnose_breaks(breaks, market)["diagnosis"]
-policy_eval = a.policy_evaluation(breaks, diag)
-res = a.auto_resolutions(breaks, diag, policy_eval)
-rem = a.remediate(breaks, diag, market)
+diagnosis = a.diagnose_breaks(breaks, market)["diagnosis"]
+policy_eval = a.policy_evaluation(breaks, diagnosis)
+res = a.auto_resolutions(breaks, diagnosis, policy_eval)
+rem = a.remediate(breaks, diagnosis, market)
 
 
-
-
+end = time.time()
+print(f"Execution time: {end - start:.2f} seconds")

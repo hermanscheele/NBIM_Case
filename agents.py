@@ -291,7 +291,7 @@ def remediation_agent(breaks, diagnosis, market_facts, model, client):
 
     [os.remove(f"custody_outbox/{f}") for f in os.listdir("custody_outbox")]
     for d in data.get("remediations", []):
-        cust = (d.get("custodian") or "UNKNOWN").replace("/", "_")
+        cust = (d.get("custodian") or "CUST_").replace("/", "_")
         write_to_outbox(d, cust)
         count += 1
     stop()
